@@ -30,12 +30,6 @@
                 <div class="col-12 mb-4 mx-auto">
                     <label for="artist" class="mb-1 fw-bold">Alcohol %</label>
                     <input type="number" name="artist" class="form-control" id="artist" [(ngModel)]="beer.alcohol" #artist="ngModel" minlength="3" required />
-                    <div *ngIf="artist.invalid && (artist.dirty || artist.touched)" class="alert alert-danger mt-1">
-                        <div *ngIf="artist.errors!['required']">Artiest is verplicht.</div>
-                        <div *ngIf="artist.errors!['minlength']">
-                            Artiest moet minimaal 3 karakters lang zijn.
-                        </div>
-                    </div>
                 </div>
                 <div class="col-12 mb-4 mx-auto">
                     <label for="price" class="mb-1 fw-bold">Prijs</label>

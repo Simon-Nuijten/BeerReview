@@ -1,39 +1,4 @@
-  <!-- <div class="row">
-    <div class="col-12 col-lg-8">
-        <h1>Aankomende <span class="title-blue">Bieren</span></h1>
-    </div>
-    <div class="col-12 col-lg-4">
-        <div class="float-none float-lg-end mb-5 mb-lg-0">
-            <a routerLink="../CreateBeer" class="btn create-btn mt-3"><i id="create-concert-btn-icon" class="fa-solid fa-square-plus"></i>Toevoegen</a>
-        </div>
-    </div>
-    <div class="col-12 my-5 table-responsive">
-        <table class="table table-striped custom-table-responsive">
-            <thead>
-                <tr>
-                    <th scope="col">Artiest</th>
-                    <th scope="col">Bekijken</th>
-                    <th scope="col">Aanpassen</th>
-                    <th scope="col">Verwijderen</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let beer of beersList">
-                    <td>{{ beer.name }}</td>
-                    <td>
-                        <a routerLink="{{ beer.id }}" class="btn create-btn detail-btn">Bekijken</a>
-                    </td>
-                    <td>
-                        <a routerLink="{{ beer.id }}/aanpassen" class="btn create-btn edit-btn">Aanpassen</a>
-                    </td>
-                    <td>
-                        <a (click)="deleteBeer(beer)" class="btn create-btn edit-btn delete-btn">Verwijderen</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div> -->
+
 <div class="float-none mb-5 mb-lg-0">
   <a id="createButton" routerLink="../CreateBeer" class="btn create-btn mt-3"><i id="create-concert-btn-icon" class="fa-solid fa-square-plus"></i>Toevoegen</a>
 </div>
